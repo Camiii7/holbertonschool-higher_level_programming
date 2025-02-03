@@ -50,3 +50,14 @@ class Square:
             int: El area del cuadrad
         """
         return self.__size ** 2
+
+    def my_print(self):
+        """Imprime el cuadrado con el caracter #.
+
+        Si size es 0, imprime una linea vacia.
+        """
+        if self.__size == 0:
+            print("")
+        else:
+            for _ in range(self.__size):
+                print("#" * self.__size)

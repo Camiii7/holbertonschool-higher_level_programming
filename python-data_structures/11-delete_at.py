@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Define una funcion que elimina un elemento en una posicion dada de una lista"""
+"""Define una funcion que elimina un elemento
+en una posicion dada de una lista"""
 
 
 def delete_at(my_list=[], idx=0):

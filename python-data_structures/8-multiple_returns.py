@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Define una funcion que devuelve la longitud de una cadena y su primer caracter"""
+"""Define una funcion que devuelve la longitud de una cadena
+y su primer caracter"""
 
 
 def multiple_returns(sentence):

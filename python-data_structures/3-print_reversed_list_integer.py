@@ -3,6 +3,7 @@
 Define una función para imprimir una lista de enteros en orden inverso.
 """
 
+
 def print_reversed_list_integer(my_list=[]):
     """
     Imprime todos los enteros de una lista en orden inverso.

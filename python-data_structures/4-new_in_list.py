@@ -3,7 +3,8 @@
 
 
 def new_in_list(my_list, idx, element):
-    """ Reemplaza un elemento en una lista en una posicion espeifica sin modificar la origina
+    """ Reemplaza un elemento en una lista en una posicion
+    espeifica sin modificar la original
 
     Args:
         my_list (list): Lista original
@@ -11,7 +12,8 @@ def new_in_list(my_list, idx, element):
         element (any): Nuevo elemento a insertar
 
     Return:
-        lista: Una nueva lista con el elemento reemplazado, o una copia de la original si idx es invalid
+        lista: Una nueva lista con el elemento reemplazado,
+        o una copia de la original si idx es invalida
     """
     if idx < 0 or idx >= len(my_list):
         return my_list[:]

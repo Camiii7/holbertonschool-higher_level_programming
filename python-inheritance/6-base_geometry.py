@@ -2,7 +2,7 @@
 """Define la clase BaseGeometry"""
 
 
-class BaseGeometriy:
+class BaseGeometry:
     """Clase base para geometria"""
 
 

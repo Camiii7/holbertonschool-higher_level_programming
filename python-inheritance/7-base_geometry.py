@@ -21,7 +21,7 @@ class BaseGeometry:
             ValueError: Si value es menor o = a 0
         """
 
-        if not insistance(value, int):
+        if not isstance(value, int):
             raise TypeError(f"{name} must be an integer")
         if value <= 0:
             raise ValueError(f"{name} must be greater than 0")

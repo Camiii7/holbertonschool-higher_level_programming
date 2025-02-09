@@ -26,9 +26,3 @@ class Rectangle(BaseGeometry):
     def area(self):
         """Calcula el area del rectangulo"""
         return self.__wifth * self.__height
-
-    def get_width(self):
-        return self.__width
-
-    def get_height(self):
-        return self.__height

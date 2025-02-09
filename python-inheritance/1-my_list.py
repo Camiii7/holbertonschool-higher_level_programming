@@ -5,7 +5,7 @@
 class MyList(list):
     """Clase que extiende la funcionalidad de list"""
 
-def print_sorted(self):
-    """Imprime la lista ordenada en forma ascendente sin modificarla"""
+    def print_sorted(self):
+        """Imprime la lista ordenada en forma ascendente sin modificarla"""
 
-    print(sorted(self))
+        print(sorted(self))

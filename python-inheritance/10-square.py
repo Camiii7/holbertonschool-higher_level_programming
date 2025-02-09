@@ -5,7 +5,7 @@
 Rectangle = __import__('9-rectangle').Rectangle
 
 
-class Squiare(Rectangle):
+class Square(Rectangle):
     """Clase Squiare que hereda de rectangle"""
 
     def __init__(self, size):

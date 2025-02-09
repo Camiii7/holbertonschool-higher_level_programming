@@ -1,4 +1,4 @@
-#!/usr/bin/ptyhon3
+#!/usr/bin/python3
 """Define una clase Mylist que hereda de list"""
 
 

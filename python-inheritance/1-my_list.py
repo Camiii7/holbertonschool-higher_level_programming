@@ -2,7 +2,7 @@
 """Define una clase Mylist que hereda de list"""
 
 
-Class MyList(list):
+class MyList(list):
     """Clase que extiende la funcionalidad de list"""
 
 def print_sorted(self):

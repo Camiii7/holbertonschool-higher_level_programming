@@ -36,7 +36,7 @@ class Rectangle(Shape):
     def perimeter(self):
         return 2 * (self.width + self.height)
 
-    def shape_info(shape):
-        """Funcion que imprime el area y perimetro de un objeto"""
-        print(f"Area: {Shape.area()}")
-        print(f"Perimeter: {shape.perimeter()}")
+def shape_info(shape):
+    """Funcion que imprime el area y perimetro de un objeto"""
+    print(f"Area: {Shape.area()}")
+    print(f"Perimeter: {shape.perimeter()}")

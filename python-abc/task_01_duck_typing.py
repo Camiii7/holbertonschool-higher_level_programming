@@ -23,6 +23,9 @@ class Circle(Shape):
     def area(self):
         return math.pi * self.radius
 
+    def perimeter(self):
+        return 2 * math.pi * self.radius
+
 class Rectangle(Shape):
     """Clase Rectangle que hereda de Shape"""
 
